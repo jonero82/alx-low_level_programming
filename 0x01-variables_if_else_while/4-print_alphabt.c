@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - printing alphabets in lowercase
  * Description: program that prints the alphabet in lowercase
