@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 /**
- *
- *  * main - prints in lower case
- *
- *   * Description: "prints the alphabet in lowercase, and then in uppercase"
- *
- *    * Return: 0
- *
- */
+* main - prints in lower case
+* Description: "prints the alphabet in lowercase, and then in uppercase"
+* Return: 0
+*/
 int main(void)
 {
 char e = 'a';
