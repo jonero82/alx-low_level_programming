@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * main - prints a string of characters
 * Description: prints _putchar, followed by a new line
