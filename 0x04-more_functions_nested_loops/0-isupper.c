@@ -1,39 +1,19 @@
-main.h
-int _putchar(int c);
-void print_alphabet(void);
-void print_alphabet_x10(void);
-int _islower(int c);
-int _isalpha(int c);
-int print_sign(int n);
-int _abs(int);
-int print_last_digit(int);
-void jack_bauer(void);
-void times_table(void);
-int add(int, int);
-void print_to_98(int n);
-void print_times_table(int n);
-int _isupper(int c);
-int _isdigit(int c);
-int mul(int a, int b);
-void print_numbers(void);
-void print_most_numbers(void);
-void more_numbers(void);
-void print_line(int n);
-void print_diagonal(int n);
-void print_square(int size);
-void print_triangle(int size);
-void print_number(int n);
-
-
-
- 
- 
- 
-
-
-
-
-
-
-
-
+#include "main.h"
+#include <stdio.h>
+/**
+* _isupper - check the code.
+* @c: An input value
+* Description:: A function that checks for uppercase character.
+* Return: 1 if c is uppercase and 0 otherwise
+*/
+int _isupper(int c)
+{
+char i;
+int is_upper = 0;
+for (i = 'A'; i <= 'Z'; i++)
+{
+if (i == c)
+is_upper = 1;
+}
+return (is_upper);
+}
