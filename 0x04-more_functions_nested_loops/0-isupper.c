@@ -14,10 +14,10 @@ int _isupper(int c)
         int is_upper = 0;
 
 	for (i = 'A'; i <= 'Z'; i++)
-        {
-                if (i == c)
-                       is_upper = 1;
-	}
-	return (is_upper);
+{
+if (i == c)
+is_upper = 1;
+}
+return (is_upper);
 }
 
