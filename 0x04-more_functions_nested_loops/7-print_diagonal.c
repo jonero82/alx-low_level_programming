@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_diagonal - Check the main file
- * @n: A integer character
- * Description: A function that draws a diagonal line on the terminal
- * Return: 0
- */
+* print_diagonal - Check the main file
+* @n: A integer character
+* Description: A function that draws a diagonal line on the terminal
+* Return: 0
+*/
 void print_diagonal(int n)
 {
 int i;
