@@ -1,18 +1,23 @@
 #include "main.h"
+
 /**
- * print_square - Check the main file
- * @size: Value of square size
- * Description: A function that prints a square , followed by a new line
- * Return: 0
- */
-void print_square(int size)
+ *  * print_square - prints a square
+ *   * @n: the number of # to print in each line
+ *    */
+
+void print_square(int n)
 {
-int i;
-if (size == 0 || size < 0)
-_putchar('\n');
-else
-{
-for (i = 0; i < size; i++)
-_putchar('#');
-}
+		int e, f;
+
+			if (n > 0)
+					{
+								for (e = 0; e < n; e++)
+											{
+															for (f = 0; f < n; f++)
+																				_putchar('#');
+																		_putchar('\n');
+																				}
+									}
+				else
+							_putchar('\n');
 }
