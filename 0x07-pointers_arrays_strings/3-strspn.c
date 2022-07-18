@@ -7,7 +7,7 @@
 * Return: number of bytes in segment s which consist of bytes from accept
 */
 unsigned int _strspn(char *s, char *accept)
-{	
+{
 unsigned int a, b;
 a = 0;
 while (s[a] != '\0')
